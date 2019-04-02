@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/parsehex/pll/issues"
   },
-  "homepage": "https://github.com/parsehex/pll#readme"
+  "homepage": "https://github.com/parsehex/pll#readme",
+  "dependencies": {
+    "spawn-command": "^0.0.2-1"
+  }
 }

@@ -10,6 +10,9 @@ A simple NodeJS script to help run commands in parallel ("pll" === "parallel").
 
 See `example.js`.
 
-## Notes
+## Options
 
-- By default the first `output` will be the called command. You can avoid this behavior by passing `true` as the second argument.
+Pass an options object as the second argument with any of the following properties:
+
+- `noCommandEcho`: By default the first `output` will be the called command. Setting this to `true` will avoid that behavior.
+- `noColor`: Disable color in output by setting to `true`.
