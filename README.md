@@ -9,3 +9,7 @@ A simple NodeJS script to help run commands in parallel ("pll" === "parallel").
 ## Usage
 
 See `example.js`.
+
+## Notes
+
+- By default the first `output` will be the called command. You can avoid this behavior by passing `true` as the second argument.
