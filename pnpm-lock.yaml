@@ -1,10 +1,19 @@
-dependencies:
-  spawn-command: 0.0.2-1
-lockfileVersion: 5
+devDependencies:
+  '@types/node': 12.7.4
+  typescript: 3.6.2
+lockfileVersion: 5.1
 packages:
-  /spawn-command/0.0.2-1:
-    dev: false
+  /@types/node/12.7.4:
+    dev: true
     resolution:
-      integrity: sha1-YvXpRmmBwbeW3Fkpk34RycaSG9A=
+      integrity: sha512-W0+n1Y+gK/8G2P/piTkBBN38Qc5Q1ZSO6B5H3QmPCUewaiXOo2GCAWZ4ElZCcNhjJuBSUSLGFUJnmlCn5+nxOQ==
+  /typescript/3.6.2:
+    dev: true
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-lmQ4L+J6mnu3xweP8+rOrUwzmN+MRAj7TgtJtDaXE5PMyX2kCrklhg3rvOsOIfNeAWMQWO2F1GPc1kMD2vLAfw==
 specifiers:
-  spawn-command: ^0.0.2-1
+  '@types/node': ^12.7.4
+  typescript: ^3.6.2

@@ -1,10 +1,10 @@
 {
-  "name": "pll",
-  "version": "1.0.0",
+  "name": "@private-registry/pll",
+  "version": "0.1.0",
   "description": "pll",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "tsc"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
     "url": "https://github.com/parsehex/pll/issues"
   },
   "homepage": "https://github.com/parsehex/pll#readme",
-  "dependencies": {
-    "spawn-command": "^0.0.2-1"
+  "devDependencies": {
+    "@types/node": "^12.7.4",
+    "typescript": "^3.6.2"
   }
 }
