@@ -1,10 +1,13 @@
 {
-  "name": "@private-registry/pll",
+  "name": "pll",
   "version": "0.1.1",
-  "description": "pll",
+  "description": "Run commands in parallel",
   "main": "lib/index.js",
   "scripts": {
     "prepare": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@parsehex"
   },
   "repository": {
     "type": "git",
